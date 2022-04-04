@@ -33,6 +33,9 @@ h2 {
     padding-left: 20px;
     font-size: 2.5rem;
 }
+span{
+    font-size: 2rem;
+}
 
 label {
     font-size: 3rem;
@@ -71,11 +74,7 @@ a:visited {
 a:hover {
     color: gray;
 }
-#cuadrito1,#cuadrito2,#cuadrito3,#cuadrito4,#cuadrito5,#cuadrito6,#cuadrito7,#cuadrito8,#cuadrito9,#cuadrito10{
-    box-shadow: 0 0.1rem 0.4rem gray;
-    padding: 2px;
-    background-color: darkgray;
-}
+
 .caja {
     margin-top: 100px;
     display: flex;
@@ -92,6 +91,7 @@ a:hover {
 }
 
 .right {
+    margin: 2%;
     display: flex;
     justify-content: flex-end;
 }
@@ -109,7 +109,7 @@ a:hover {
 
 .cuadrito {
     box-shadow: 0 0.1rem 0.4rem gray;
-    padding: 2px;
+    padding: 10px;
     background-color: darkgray;
 }
 
@@ -119,7 +119,7 @@ footer {
 }
 
 .volver {
-    background-color: white;
+    background-color: darkgray;
     border-radius: 5%;
     box-shadow: 0 0.1rem 0.4rem gray;
     margin: 30px;
@@ -143,4 +143,14 @@ footer {
 #img4 {
     width: 500px;
     height: 450px;
+}
+#deco{
+    text-decoration: line-through;
+}
+
+.cuadrito2 {
+    margin-top: auto;
+    max-height: 170px;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    background-color: darkgray;
 }
