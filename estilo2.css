@@ -1,14 +1,16 @@
-html{
+html {
     font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
     margin: 0%;
     background: url(img/pasto.jpg);
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 }
-header{
+
+header {
     background-color: lawngreen;
     box-shadow: 0 0 0.4rem gray;
     padding-top: 20px;
@@ -16,68 +18,81 @@ header{
     padding-left: 40px;
     padding-right: 40px;
 }
-img{
+
+img {
     width: 200px;
     height: 200px;
 }
-h1{
+
+h1 {
     color: aliceblue;
     font-size: 4rem;
 }
-h2{
+
+h2 {
     padding-left: 20px;
     font-size: 2.5rem;
 }
-label{
+
+label {
     font-size: 3rem;
 }
-input{
+
+input {
     min-height: 40px;
     width: 300px;
 }
-table{
+
+table {
     background-color: white;
     border-radius: 5%;
     box-shadow: 0 0.1rem 0.4rem gray;
     margin: 30px;
 }
-th,td{
+
+th,
+td {
     width: 250px;
     font-size: 1rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:link{
+
+a:link {
     color: black;
 }
-a:visited{
+
+a:visited {
     color: black;
 }
-a:hover{
+
+a:hover {
     color: gray;
 }
-.caja{
+
+.caja {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.caja2{
+.caja2 {
     margin-top: 100px;
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.right{
+
+.right {
     display: flex;
     justify-content: flex-end;
 }
-.tamaño{  
+
+.tamaño {
     background-color: white;
     border-radius: 5%;
     box-shadow: 0 0.1rem 0.4rem gray;
@@ -87,33 +102,41 @@ a:hover{
     margin-bottom: 15px;
     text-align: center;
 }
-.cuadrito{
+
+.cuadrito {
     box-shadow: 0 0.1rem 0.4rem gray;
     padding: 2px;
     background-color: darkgray;
 }
-footer{
+
+footer {
     height: 200px;
     background-color: gray;
 }
-.volver{
+
+.volver {
     background-color: white;
     border-radius: 5%;
     box-shadow: 0 0.1rem 0.4rem gray;
     margin: 30px;
 }
-.center{
+
+.center {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 /*Configuracion de carrusel*/
-#carouselExampleDark{
+#carouselExampleDark {
     width: 500px;
     margin: 0% auto;
 }
 
-#img1,#img2,#img3,#img4{
+#img1,
+#img2,
+#img3,
+#img4 {
     width: 500px;
     height: 450px;
 }
