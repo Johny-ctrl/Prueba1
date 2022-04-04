@@ -151,7 +151,11 @@ footer {
 
 .cuadrito2 {
     margin-top: auto;
-    max-height: 170px;
+    max-height: 225px;
     box-shadow: 0 0.1rem 0.4rem gray;
     background-color: darkgray;
+}
+#gif{
+    height: 400px;
+    width: 500px;
 }
