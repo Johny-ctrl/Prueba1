@@ -71,7 +71,11 @@ a:visited {
 a:hover {
     color: gray;
 }
-
+#cuadrito1,#cuadrito2,#cuadrito3,#cuadrito4,#cuadrito5,#cuadrito6,#cuadrito7,#cuadrito8,#cuadrito9,#cuadrito10{
+    box-shadow: 0 0.1rem 0.4rem gray;
+    padding: 2px;
+    background-color: darkgray;
+}
 .caja {
     margin-top: 100px;
     display: flex;
