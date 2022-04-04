@@ -107,3 +107,13 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+/*Configuracion de carrusel*/
+#carouselExampleDark{
+    width: 500px;
+    margin: 0% auto;
+}
+
+#img1,#img2,#img3{
+    width: 500px;
+    height: 450px;
+}
