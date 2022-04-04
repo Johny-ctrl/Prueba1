@@ -1,0 +1,116 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+body{
+    background: url("../img/pasto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: lawngreen;
+    box-shadow: 0 0 0.4rem gray;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -10px;
+    margin-left: -8.3px;
+    margin-right: -8.3px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+table{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+
+#caja{
+    margin-top: 249px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#caja2{
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#correa,#identificacion,#bandana{
+    padding: 10px;
+}
+/*#correa{
+}
+#identificacion{
+}
+#bandana{
+}*/
+label{
+    font-size: 2rem;
+}
+input{
+    width: 200px;
+}
+#right{
+    display: flex;
+    justify-content: flex-end;
+}
+#tamaño{  
+    background-color: aqua;
+    width: 90%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#Carrusel1,
+#Carrusel2,
+#Carrusel3{
+    width: 500px;
+    height: 450px;
+}
+#carouselExampleDark{
+    width: 30%;
+    margin: 0% auto;
+}
+.price {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+ul li{
+    float: left;
+    margin: 10px;
+    list-style: none;
+    box-sizing: content-box;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    border: 1px  solid black ;
+}
