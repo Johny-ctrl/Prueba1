@@ -1,0 +1,109 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0%;
+    background: url(img/pasto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+header{
+    background-color: lawngreen;
+    box-shadow: 0 0 0.4rem gray;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+h2{
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+label{
+    font-size: 3rem;
+}
+input{
+    min-height: 40px;
+    width: 300px;
+}
+table{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    margin: 30px;
+}
+th,td{
+    width: 250px;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+.caja{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.caja2{
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+.tamaño{  
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    width: 90%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cuadrito{
+    box-shadow: 0 0.1rem 0.4rem gray;
+    padding: 2px;
+    background-color: darkgray;
+}
+footer{
+    height: 200px;
+    background-color: gray;
+}
+.volver{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0.1rem 0.4rem gray;
+    margin: 30px;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
